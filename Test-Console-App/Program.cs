@@ -13,5 +13,10 @@ namespace Test_Console_App
         {
             Console.WriteLine("Hello World!");
         }
+
+        static void PrintName(string name, int age)
+        {
+            Console.WriteLine($"Hello, {name}, {age + 5}");
+        }
     }
 }
